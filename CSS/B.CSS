@@ -1,0 +1,546 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+.one{
+	width: 100%;
+	float: left;
+	border-bottom: 1px solid #dbdee1;
+	background-color: #ecf1f5;
+}
+.a{
+	color: #ff5c5c;
+	margin: 1% 0% 1% 10%;
+	 
+}
+.fa-bars{
+	margin: 1% 0% 1% 70%;
+	color: black;
+}
+.two{
+	width: 100%;
+	float: left;
+	background-color: #ecf1f5;
+}
+.twoa{ 
+	 color: #ff5c5c; 
+	 font-size: 50px;
+	 margin: 1% 0% 1% 10%;
+}
+.twob{ 
+	 color: #3b484c; 
+	 font-size: 12px;
+	 margin: 0% 0% 4% 15%;
+}
+.three{
+	width: 100%;
+	float: left;
+}
+.threea{
+	max-width: 30%;
+	height: auto;
+	position: relative;
+	top: 10px;
+	left: 20px;
+	z-index: -1;
+}
+.threeb{
+	 text-align: left; 
+	 margin: -8% 0% 15% 12%;
+	 color: #ff5c5c; 
+	 font-size: 50px;
+}
+.threec{
+	background-color: green;
+	color: blue;
+	border-style: none;
+	position: relative;
+	left: 450px;
+	bottom:-30px;
+	padding: 15px 15px;
+	border-radius: 10px;
+	font-size: 30px;
+}
+.four{
+	width: 100%;
+	float: left;
+	background-color: #2d3b3f;
+}
+.foura{
+	 text-align: center;
+	 margin: 100px 0px 0px 0px;
+	 color: white;
+}
+.fourb{
+	 text-align: center; 
+	 color: white; 
+	 font-size: 12px;
+	  margin: 0px 0px 20px 0px;
+}
+.footer{
+	width: 100%;
+	float: left;
+	background-color: #232f32;
+}
+.footera{
+	 text-align: center; 
+	 color: white; 
+	 font-size: 12px;  
+	 margin: 10px 0px 10px 0px;
+}
+/* small phone (320-600px)*/
+@media screen and (min-width: 320px){
+
+	.one{
+	width: 100%;
+	float: left;
+	border-bottom: 1px solid black;
+	background-color: #F76B69;
+}
+.a{
+	color: green;
+	margin: 1% 0% 1% 5%;
+	 
+}
+.fa-bars{
+	margin: 1% 0% 1% 10%;
+	color: green;
+}
+.two{
+	width: 100%;
+	float: left;
+	background-color: #F5AC11;
+}
+.twoa{ 
+	 color: #1133F5; 
+	 font-size: 20px;
+	 margin: 1% 0% 1% 5%;
+}
+.twob{ 
+	 color: #F5116B; 
+	 font-size: 8px;
+	 margin: 0% 0% 2% 5%;
+}
+.three{
+	width: 100%;
+	float: left;
+}
+.threea{
+	max-width: 12%;
+	height: auto;
+	position: relative;
+	top: 20px;
+	left: 20px;
+	z-index: -1;
+}
+.threeb{
+	 text-align: left; 
+	 margin: -4% 0% 8% 7%;
+	 color: green; 
+	 font-size: 20px;
+}
+.threec{
+	background-color:silver;
+	color: #09F98F;
+	border-style: none;
+	position: relative;
+	left: 150px;
+	bottom:-15px;
+	padding: 5px 5px;
+	border-radius: 5px;
+	font-size: 15px;
+}
+
+.four{
+	width: 100%;
+	float: left;
+	background-color: #F90C09;
+}
+.foura{
+	 text-align: left;
+	 margin: 10px 0px 0px 40px;
+	 color: blue;
+}
+.fourb{
+	 text-align: left; 
+	 color: blue; 
+	 font-size: 8px;
+	  margin: 0px 0px 10px 40px;
+}
+.footer{
+	width: 100%;
+	float: left;
+	background-color: yellow;
+}
+.footera{
+	 text-align: left; 
+	 color: blue; 
+	 font-size: 8px;  
+	 margin: 5px 0px 5px 40px;
+}
+}
+/* large phone (601-768px)*/
+@media screen and (min-width: 601px){
+	.one{
+	width: 100%;
+	float: left;
+	border-bottom: 1px solid yellow;
+	background-color: #09F981;
+}
+.a{
+	color: #F9E609;
+	margin: 1% 0% 1% 5%;
+	 
+}
+.fa-bars{
+	margin: 1% 0% 1% 30%;
+	color: #F9E609;
+}
+.two{
+	width: 100%;
+	float: left;
+	background-color: #1009F9;
+}
+.twoa{ 
+	 color: white; 
+	 font-size: 20px;
+	 margin: 1% 0% 1% 7%;
+}
+.twob{ 
+	 color: white; 
+	 font-size: 8px;
+	 margin: 0% 0% 2% 7%;
+}
+.three{
+	width: 100%;
+	float: left;
+}
+.threea{
+	max-width: 18%;
+	height: auto;
+	position: relative;
+	top: 26px;
+	left: 26px;
+	z-index: -1;
+}
+.threeb{
+	 text-align: left; 
+	 margin: -4% 0% 8% 8%;
+	 color: #101AEB; 
+	 font-size: 25px;
+}
+.threec{
+	background-color: #FA05EB;
+	color: white;
+	border-style: none;
+	position: relative;
+	left: 200px;
+	bottom:-15px;
+	padding: 6px 6px;
+	border-radius: 6px;
+	font-size: 20px;
+}
+
+.four{
+	width: 100%;
+	float: left;
+	background-color: #8005FA;
+}
+.foura{
+	 text-align: left;
+	 margin: 10px 0px 0px 60px;
+	 color: black;
+}
+.fourb{
+	 text-align: left; 
+	 color: black; 
+	 font-size: 10px;
+	  margin: 0px 0px 10px 60px;
+}
+.footer{
+	width: 100%;
+	float: left;
+	background-color: black;
+}
+.footera{
+	 text-align: left; 
+	 color: white; 
+	 font-size: 10px;  
+	 margin: 5px 0px 5px 60px;
+}	
+}
+/* tablet (769-991px)*/
+@media screen and (min-width: 769px){
+		.one{
+	width: 100%;
+	float: left;
+	border-bottom: 1px solid black;
+	background-color: #FA0587;
+}
+.a{
+	color: yellow;
+	margin: 1% 0% 1% 5%;
+	 
+}
+.fa-bars{
+	margin: 1% 0% 1% 50%;
+	color: yellow;
+}
+.two{
+	width: 100%;
+	float: left;
+	background-color: white;
+}
+.twoa{ 
+	 color: green; 
+	 font-size: 25px;
+	 margin: 1% 0% 1% 8%;
+}
+.twob{ 
+	 color: green; 
+	 font-size: 12px;
+	 margin: 0% 0% 2% 8%;
+}
+.three{
+	width: 100%;
+	float: left;
+}
+.threea{
+	max-width: 22%;
+	height: auto;
+	position: relative;
+	top: 30px;
+	left: 30px;
+	z-index: -1;
+}
+.threeb{
+	 text-align: left; 
+	 margin: -8% 0% 16% 9%;
+	 color: blue; 
+	 font-size: 25px;
+}
+.threec{
+	background-color: yellow;
+	color: white;
+	border-style: none;
+	position: relative;
+	left: 300px;
+	bottom:-20px;
+	padding: 7px 7px;
+	border-radius: 7px;
+	font-size: 25px;
+}
+
+.four{
+	width: 100%;
+	float: left;
+	background-color: #FA0511;
+}
+.foura{
+	 text-align: left;
+	 margin: 15px 0px 0px 120px;
+	 color: #05FAE7;
+}
+.fourb{
+	 text-align: left; 
+	 color: #05FAE7; 
+	 font-size: 12px;
+	  margin: 0px 0px 10px 120px;
+}
+.footer{
+	width: 100%;
+	float: left;
+	background-color: #4CFA05;
+}
+.footera{
+	 text-align: left; 
+	 color: #051CFA; 
+	 font-size: 12px;  
+	 margin: 5px 0px 5px 120px;
+}	
+}
+/* medium laptop (992-1200px)*/
+@media screen and (min-width: 992px){
+			.one{
+	width: 100%;
+	float: left;
+	border-bottom: 1px solid white;
+	background-color: #051CFA;
+}
+.a{
+	color: #05FAA8;
+	margin: 1% 0% 1% 5%;
+	 
+}
+.fa-bars{
+	margin: 1% 0% 1% 60%;
+	color: #05FAA8;
+}
+.two{
+	width: 100%;
+	float: left;
+	background-color: #A1FA05;
+}
+.twoa{ 
+	 color: yellow; 
+	 font-size: 28px;
+	 margin: 1% 0% 1% 10%;
+}
+.twob{ 
+	 color: yellow; 
+	 font-size: 12px;
+	 margin: 0% 0% 2% 10%;
+}
+.three{
+	width: 100%;
+	float: left;
+}
+.threea{
+	max-width: 22%;
+	height: auto;
+	position: relative;
+	top: 30px;
+	left: 30px;
+	z-index: -1;
+}
+.threeb{
+	 text-align: left; 
+	 margin: -8% 0% 16% 9%;
+	 color: white; 
+	 font-size: 28px;
+}
+.threec{
+	background-color: #FA05EF;
+	color: black;
+	border-style: none;
+	position: relative;
+	left: 400px;
+	bottom:-25px;
+	padding: 8px 8px;
+	border-radius: 8px;
+	font-size: 28px;
+}
+
+.four{
+	width: 100%;
+	float: left;
+	background-color: #B7FA05;
+}
+.foura{
+	 text-align: left;
+	 margin: 15px 0px 0px 300px;
+	 color: black;
+}
+.fourb{
+	 text-align: left; 
+	 color: black; 
+	 font-size: 12px;
+	  margin: 0px 0px 10px 300px;
+}
+.footer{
+	width: 100%;
+	float: left;
+	background-color: #232f32;
+}
+.footera{
+	 text-align: left; 
+	 color: yellow; 
+	 font-size: 12px;  
+	 margin: 5px 0px 5px 300px;
+}	
+}
+@media screen and (min-width: 1200px){
+	.one{
+	width: 100%;
+	float: left;
+	border-bottom: 1px solid #dbdee1;
+	background-color: #ecf1f5;
+}
+.a{
+	color: #ff5c5c;
+	margin: 1% 0% 1% 10%;
+	 
+}
+.fa-bars{
+	margin: 1% 0% 1% 70%;
+	color: black;
+}
+.two{
+	width: 100%;
+	float: left;
+	background-color: #ecf1f5;
+}
+.twoa{ 
+	 color: #ff5c5c; 
+	 font-size: 50px;
+	 margin: 1% 0% 1% 10%;
+}
+.twob{ 
+	 color: #3b484c; 
+	 font-size: 12px;
+	 margin: 0% 0% 4% 15%;
+}
+.three{
+	width: 100%;
+	float: left;
+}
+.threea{
+	max-width: 30%;
+	height: auto;
+	position: relative;
+	top: 10px;
+	left: 20px;
+	z-index: -1;
+}
+.threeb{
+	 text-align: left; 
+	 margin: -8% 0% 15% 12%;
+	 color: #ff5c5c; 
+	 font-size: 50px;
+}
+.threec{
+	background-color: green;
+	color: blue;
+	border-style: none;
+	position: relative;
+	left: 450px;
+	bottom:-30px;
+	padding: 15px 15px;
+	border-radius: 10px;
+	font-size: 30px;
+}
+.four{
+	width: 100%;
+	float: left;
+	background-color: #2d3b3f;
+}
+.foura{
+	 text-align: center;
+	 margin: 100px 0px 0px 0px;
+	 color: white;
+}
+.fourb{
+	 text-align: center; 
+	 color: white; 
+	 font-size: 12px;
+	  margin: 0px 0px 20px 0px;
+}
+.footer{
+	width: 100%;
+	float: left;
+	background-color: #232f32;
+}
+.footera{
+	 text-align: center; 
+	 color: white; 
+	 font-size: 12px;  
+	 margin: 10px 0px 10px 0px;
+}
+}
